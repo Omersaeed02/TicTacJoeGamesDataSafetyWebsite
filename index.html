@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Delete Your Account – Tic Tac Joe Games</title>
+  <meta name="description" content="How to request deletion of your Tic Tac Joe Games account and associated data.">
+  <link rel="icon" href="https://images.squarespace-cdn.com/content/v1/699bbf52ec0bd71c0ecddf33/4e1a51c3-f754-4d7e-bf3c-3a8d3902accf/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    /* Colours and fonts match https://www.tictacjoegames.com.au/ */
+    :root {
+      --cream: #f4f3f0;
+      --navy: #141433;
+      --red: #ce001d;
+      --red-dark: #cc0036;
+      --sand: #e9e0cf;
+      --sky: #c7f0ff;
+      --butter: #fff9c4;
+      --white: #ffffff;
+      --muted: #4e4e4e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--navy);
+      font: 16px/1.7 "Poppins", system-ui, sans-serif;
+    }
+    a { color: var(--red); }
+    h1, h2 {
+      font-family: "Coiny", "Poppins", sans-serif;
+      font-weight: 400;
+      line-height: 1.15;
+      margin: 0 0 16px;
+    }
+    h1 { font-size: clamp(2rem, 6vw, 3.25rem); }
+    h2 { font-size: clamp(1.4rem, 4vw, 1.8rem); }
+    strong { font-weight: 600; }
+
+    /* Header bar */
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px 16px;
+    }
+    .topbar img { height: 60px; width: auto; display: block; }
+
+    .pill {
+      display: inline-block;
+      border-radius: 999px;
+      padding: 14px 24px;
+      font-weight: 600;
+      font-size: 14px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .pill-sand { background: var(--sand); color: var(--muted); }
+    .pill-red  { background: var(--red); color: var(--white); }
+    .pill:hover { opacity: .88; }
+
+    /* Hero band */
+    .hero { background: var(--sky); }
+    .hero .inner {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 56px 16px;
+    }
+    .hero p { font-size: 1.15rem; max-width: 640px; margin: 0; }
+    .hero .dev { font-size: .95rem; font-weight: 600; margin-top: 12px; }
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 16px 64px;
+      display: grid;
+      gap: 24px;
+    }
+    .card {
+      background: var(--white);
+      border-radius: 24px;
+      padding: 32px;
+    }
+    .card.butter { background: var(--butter); }
+    .card p { margin: 0 0 12px; }
+    .card p:last-child { margin-bottom: 0; }
+    .eyebrow {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      margin: 0 0 8px;
+    }
+    ol, ul { padding-left: 1.25rem; margin: 0 0 12px; }
+    li + li { margin-top: 6px; }
+    .note { color: var(--muted); font-size: .95rem; }
+    .email {
+      font-weight: 600;
+      font-size: 1.1rem;
+      word-break: break-all;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    @media (max-width: 720px) {
+      .two-col { grid-template-columns: 1fr; }
+      .card { padding: 24px; }
+      .topbar img { height: 44px; }
+    }
+
+    footer {
+      background: var(--navy);
+      color: var(--cream);
+      text-align: center;
+      padding: 32px 16px;
+      font-size: 14px;
+    }
+    footer a { color: var(--cream); }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <a href="https://www.tictacjoegames.com.au/">
+      <img src="https://images.squarespace-cdn.com/content/v1/699bbf52ec0bd71c0ecddf33/502639ca-a306-416e-957c-e0b55f06c051/TicTacJoeGames_logo_horizontal_RGB.png?format=500w"
+           alt="Tic Tac Joe Games">
+    </a>
+    <a class="pill pill-sand" href="https://www.tictacjoegames.com.au/">Main website</a>
+  </div>
+
+  <section class="hero">
+    <div class="inner">
+      <h1>Delete your Tic Tac Joe Games account</h1>
+      <p>
+        This page explains how to delete your Tic Tac Joe Games account and the data
+        associated with it.
+      </p>
+      <p class="dev">Developer: Tic Tac Joe Games Pty Ltd</p>
+    </div>
+  </section>
+
+  <main>
+    <div class="two-col">
+      <section class="card">
+        <p class="eyebrow">Option 1</p>
+        <h2>Delete in the game</h2>
+        <ol>
+          <li>Open Tic Tac Joe Games on your device.</li>
+          <li>Go to <strong>Settings</strong> &rarr; <strong>Account</strong>.</li>
+          <li>Tap <strong>Delete Account</strong> and confirm.</li>
+        </ol>
+        <p class="note">Your account and its data are deleted immediately.</p>
+      </section>
+
+      <section class="card butter">
+        <p class="eyebrow">Option 2</p>
+        <h2>Request by email</h2>
+        <p>
+          Can't access the game? Email us from the address linked to your account,
+          or include your username / player ID, and we'll delete it for you.
+        </p>
+        <p class="email">tictacjoegames@gmail.com</p>
+        <p>
+          <a class="pill pill-red"
+             href="mailto:tictacjoegames@gmail.com?subject=Account%20Deletion%20Request%20-%20Tic%20Tac%20Joe%20Games&body=Please%20delete%20my%20Tic%20Tac%20Joe%20Games%20account%20and%20associated%20data.%0A%0AUsername%20%2F%20Player%20ID%3A%20%0ASign-in%20method%20(Google%20or%20username%2Fpassword)%3A%20%0A">
+            Request account deletion
+          </a>
+        </p>
+        <p class="note">
+          Please tell us how you sign in (Google account or username/password) so we
+          can find your account. Requests are processed within 30 days.
+        </p>
+      </section>
+    </div>
+
+    <div class="two-col">
+      <section class="card">
+        <h2>What data is deleted</h2>
+        <ul>
+          <li>Your game account (username / player ID)</li>
+          <li>Linked sign-in information (Google account link or username/password login)</li>
+          <li>Saved game progress, stats and other player data stored on our servers</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>What data may be kept</h2>
+        <p>
+          We do not keep your account data after deletion. Limited records may be retained
+          only where required for legal, security or fraud-prevention reasons, and are
+          deleted within 90 days.
+        </p>
+        <p class="note">
+          Deleting your game account does not delete your Google account. To manage your
+          Google account, visit <a href="https://myaccount.google.com/">myaccount.google.com</a>.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    &copy; Tic Tac Joe Games Pty Ltd &middot;
+    <a href="https://www.tictacjoegames.com.au/">tictacjoegames.com.au</a>
+  </footer>
+</body>
+</html>
